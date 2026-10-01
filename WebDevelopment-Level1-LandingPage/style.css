@@ -1,0 +1,674 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Montserrat";
+    background-color: #f6f1eb;
+    color: #1E1E1E;
+}
+
+h1,h2,h3,h4{
+    font-family: Playfair Display;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #faf5ef; 
+    position: fixed;  
+}
+
+#logo{
+    width: 20%;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 60px;
+    letter-spacing: 2px;
+}
+
+.links {
+     width: 60%;
+     display: flex;
+     gap: 40px;
+     margin-left: 40px;
+     
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.links a:active{
+    color: rgb(147, 145, 145);
+    text-decoration: underline;
+}
+.links a:hover{
+    color: rgb(147, 145, 145);
+    text-decoration: underline;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("images/model.png");
+    background-size: cover;
+    padding: 60px;
+}
+
+#hero{
+    width: 50%;
+}
+
+.hero h4{
+    margin-top: 60px;
+    padding-left: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.hero h1{
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 60px;
+    font-weight: lighter;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.hero p{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 450;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.hero button{
+    width: 25%;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 12px 12px 20px 20px;
+    color: white;
+    background-color: maroon;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero button:hover{
+    background-color: white;
+    color: maroon;
+}
+
+#arrivals{
+    background-color: rgb(244, 239, 230);
+}
+
+#arrivals h2{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    height: 90vh;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item{
+    background-color:rgb(250, 246, 246);
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px 5px rgb(226, 223, 223);
+}
+
+.item img{
+    border-radius: 5px;
+}
+
+.item h3{
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.item p{
+    margin-top: 0;
+    padding-top: 10px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.item button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+}
+
+.item button:hover{
+    background-color: rgb(171, 168, 168);
+    color: black;
+}
+
+#page2{
+    background-color: rgb(253, 239, 241);
+    text-align: center;
+    height: 50vh;
+}
+
+#page2 h2{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding-top: 30px;
+}
+
+#cards h3{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#cards p{
+   margin-top: 5px;
+   margin-left: 50px;
+   margin-right: 50px;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+}
+
+#story{
+     background-color: rgb(244, 239, 230);
+     height: 70vh;
+     display: flex;
+}
+
+#story img{
+    padding: 30px;
+}
+
+.about-story{
+    margin: 30px;
+}
+
+.about-story h5{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.about-story h2{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about-story p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.about-story button{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 239, 214);
+    border-top: 1px solid black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#f1 h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+#f1 p{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+#f2{
+    display: flex;
+    flex-direction: column;
+}
+
+#f2 h4{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+#f2 a{
+    margin-top: 8px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#f3 h4{
+    margin-top: 15px;
+    font-size: 22px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#f3 a{
+    color: black;
+    font-size: 22px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+#f4 h4{
+     margin-top: 15px;
+    font-size: 22px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#f4 p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 18px;
+
+}
+
+#f4 input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#sub-footer{
+    background-color: black;
+    color: white;
+    border-top: 2px solid white;
+    padding-top: 1px;
+    height: 8vh;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px){
+
+    /* BODY */
+    body{
+        position: static;
+        overflow-x: hidden;
+    }
+
+
+    /* =========================
+       NAVBAR
+       ========================= */
+
+    nav{
+        padding: 10px;
+        height: 60px;
+    }
+
+    #logo{
+        width: auto;
+        margin-left: 10px;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .links{
+        width: auto;
+        gap: 12px;
+        margin-left: 0;
+    }
+
+    .links a{
+        font-size: 11px;
+    }
+
+    .icons{
+        width: auto;
+        gap: 8px;
+    }
+
+    .icons a{
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       HERO SECTION
+       ========================= */
+
+    .hero{
+        height: 80vh;
+        padding: 30px 20px;
+        background-position: center;
+    }
+
+    #hero{
+        width: 100%;
+    }
+
+    .hero h4{
+        margin-top: 80px;
+        padding-left: 0;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .hero h1{
+        margin-top: 20px;
+        padding-left: 0;
+        font-size: 38px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    .hero p{
+        padding-left: 0;
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 1.6;
+    }
+
+    .hero button{
+        width: 130px;
+        margin-left: 0;
+        margin-top: 25px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       NEW ARRIVALS
+       ========================= */
+
+    #arrivals{
+        padding-bottom: 40px;
+    }
+
+    #arrivals h2{
+        font-size: 32px;
+        padding-top: 30px;
+    }
+
+    .items{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .item{
+        width: 90%;
+        padding: 20px 15px;
+        padding-bottom: 25px;
+    }
+
+    .item img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .item h3{
+        font-size: 22px;
+    }
+
+    .item p{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 1.5;
+    }
+
+
+    /* =========================
+       WHY CHOOSE LUME
+       ========================= */
+
+    #page2{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #page2 h2{
+        font-size: 32px;
+        padding: 30px 15px 0;
+    }
+
+    #cards{
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px 0;
+    }
+
+    #cards h3{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    #cards p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    /* =========================
+       OUR STORY
+       ========================= */
+
+    #story{
+        height: auto;
+        flex-direction: column;
+    }
+
+    #story img{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .about-story{
+        margin: 10px 25px 40px;
+    }
+
+    .about-story h5{
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .about-story h2{
+        margin-left: 0;
+        font-size: 32px;
+    }
+
+    .about-story p{
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .about-story button{
+        margin-left: 0;
+        width: 140px;
+    }
+
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    #footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 25px 20px 30px;
+    }
+
+    #f1 h3{
+        font-size: 28px;
+    }
+
+    #f1 p{
+        font-size: 15px;
+    }
+
+    #f2 h4,
+    #f3 h4,
+    #f4 h4{
+        font-size: 20px;
+    }
+
+    #f2 a{
+        font-size: 15px;
+    }
+
+    #f3 a{
+        font-size: 20px;
+    }
+
+    #f4 p{
+        font-size: 15px;
+    }
+
+    #f4 input{
+        width: 90%;
+        max-width: 300px;
+    }
+
+
+    /* =========================
+       SUB FOOTER
+       ========================= */
+
+    #sub-footer{
+        height: auto;
+        padding: 12px;
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE SCREEN
+   ========================= */
+
+@media (max-width: 480px){
+
+    nav{
+        padding: 8px;
+    }
+
+    #logo{
+        font-size: 21px;
+        margin-left: 5px;
+    }
+
+    .links{
+        gap: 7px;
+    }
+
+    .links a{
+        font-size: 9px;
+    }
+
+    .icons{
+        gap: 5px;
+    }
+
+    .icons a{
+        font-size: 12px;
+    }
+
+    .hero h1{
+        font-size: 34px;
+    }
+
+    .hero p{
+        font-size: 13px;
+    }
+
+    #arrivals h2,
+    #page2 h2{
+        font-size: 28px;
+    }
+
+    .item{
+        width: 95%;
+    }
+
+    .about-story h2{
+        font-size: 28px;
+    }
+
+}
